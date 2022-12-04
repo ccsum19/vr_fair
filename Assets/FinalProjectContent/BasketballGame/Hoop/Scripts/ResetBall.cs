@@ -4,7 +4,7 @@ using UnityEngine;
 
 
 
-public class Resetball : MonoBehaviour
+public class ResetBall : MonoBehaviour
 {
    public GameObject Object; 
     // Start is called before the first frame update
