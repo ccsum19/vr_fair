@@ -7,7 +7,6 @@ public class teacherTrigger : MonoBehaviour
 {
     public GameObject teacherTextBubble;
     Animator anim;
-    bool flip = true;
 
     // Start is called before the first frame update
     void Start()
@@ -27,12 +26,9 @@ public class teacherTrigger : MonoBehaviour
         if(other.gameObject.tag == "Player")
         {
             //Debug.Log("Collision entered!");
-            //if (flip) {
-                anim.SetTrigger("wave");
-                anim.ResetTrigger("idle");
-                flip = false;
-                teacherTextBubble.SetActive(true);
-            //}
+            anim.SetTrigger("wave");
+            anim.ResetTrigger("idle");
+            teacherTextBubble.SetActive(true);
         }
         
     }
