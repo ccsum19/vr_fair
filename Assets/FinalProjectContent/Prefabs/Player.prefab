@@ -212,7 +212,7 @@ MonoBehaviour:
   position: 1
   rotation: 1
   scale: 0
-  useLocalTransform: 0
+  useLocalTransform: 1
   teleportDistance: 0
   teleportAngle: 0
 --- !u!1 &5846426494267523333
@@ -331,7 +331,7 @@ MonoBehaviour:
   position: 1
   rotation: 1
   scale: 0
-  useLocalTransform: 0
+  useLocalTransform: 1
   teleportDistance: 0
   teleportAngle: 0
 --- !u!1 &7409138548250314738
@@ -450,6 +450,6 @@ MonoBehaviour:
   position: 1
   rotation: 1
   scale: 0
-  useLocalTransform: 0
+  useLocalTransform: 1
   teleportDistance: 0
   teleportAngle: 0
