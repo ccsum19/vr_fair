@@ -254,7 +254,7 @@ public class VRPlayer : MonoBehaviour
 					}
 					else
 					{
-                        //GetComponent<NetworkObject>().TakeOwnership();
+                        //GetComponent<NetworkObject>().TakeOwnership(); // original fix
                         gripStates[i] = GRIP_STATE.OBJECT;
                         grabbedObjects[i] = hands[i].grabbables[0]; //just grab the first objecct
                         //grabbedObjects[i].GetComponent<NetworkObject>().TakeOwnership();
