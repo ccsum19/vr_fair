@@ -15,7 +15,33 @@ public class TimeDisplay : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		float time = FindObjectOfType<LevelManager>().timeTillNextLevel;
-		text.text = "Time: " + time;
+		if (time >= 0)
+        {
+			text.text = "Time: " + time;
+		}
+		else
+        {
+			scoreDisplay();
+
+		}
 		
+	}
+
+	public void scoreDisplay()
+    {
+		int totalScore = FindObjectOfType<LevelManager>().gameScore;
+		int hubPoints = Points.totalPoints;
+		if (totalScore >= 0 && totalScore <= 4)
+		{
+			text.text = "You got 3rd place! \nTotal points: " + hubPoints;
+		}
+		else if (totalScore >= 5 && totalScore <= 9)
+		{
+			text.text = "You got 2nd place! \nTotal points: " + hubPoints;
+		}
+		else if (totalScore >= 10)
+		{
+			text.text = "You got 1st place! \nTotal points: " + hubPoints;
+		}
 	}
 }
