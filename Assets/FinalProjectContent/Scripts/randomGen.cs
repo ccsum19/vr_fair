@@ -30,7 +30,7 @@ public class randomGen : MonoBehaviour
         if(other.gameObject.tag == "randBox")
         {
             //Debug.Log(Points.totalPoints);
-            int randomPoint = Random.Range(0, 4);
+            int randomPoint = Random.Range(0, 10);
             addPoints(randomPoint);
             pointDisplay.text = randomPoint.ToString();
             GetComponent<Collider>().enabled = false;
