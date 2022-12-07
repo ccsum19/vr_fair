@@ -254,9 +254,10 @@ public class VRPlayer : MonoBehaviour
 					}
 					else
 					{
-                        GetComponent<NetworkObject>().TakeOwnership();
+                        //GetComponent<NetworkObject>().TakeOwnership();
                         gripStates[i] = GRIP_STATE.OBJECT;
                         grabbedObjects[i] = hands[i].grabbables[0]; //just grab the first objecct
+                        //grabbedObjects[i].GetComponent<NetworkObject>().TakeOwnership();
                         hands[i].grabOffset.transform.position = grabbedObjects[i].transform.position;
                         hands[i].grabOffset.transform.rotation = grabbedObjects[i].transform.rotation;
                     }
