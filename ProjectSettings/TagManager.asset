@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - randBox
+  - board
+  - ring
+  - net
+  - rock
   layers:
   - Default
   - TransparentFX
