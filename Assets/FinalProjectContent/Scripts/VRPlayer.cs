@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using VelNet;
 
 public class VRPlayer : MonoBehaviour
 {
@@ -253,6 +254,7 @@ public class VRPlayer : MonoBehaviour
 					}
 					else
 					{
+                        GetComponent<NetworkObject>().TakeOwnership();
                         gripStates[i] = GRIP_STATE.OBJECT;
                         grabbedObjects[i] = hands[i].grabbables[0]; //just grab the first objecct
                         hands[i].grabOffset.transform.position = grabbedObjects[i].transform.position;
