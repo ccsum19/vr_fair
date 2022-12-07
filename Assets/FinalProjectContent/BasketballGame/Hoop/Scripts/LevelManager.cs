@@ -37,15 +37,15 @@ public class LevelManager : MonoBehaviour
 				gameScore = FindObjectOfType<ScoreKeeper>().score;
 				if (gameScore >= 1 && gameScore <= 4)
 				{
-					Points.totalPoints += 1;
+					Points.totalPoints += 5;
 				}
 				else if (gameScore >= 5 && gameScore <= 9)
 				{
-					Points.totalPoints += 2;
+					Points.totalPoints += 7;
 				}
 				else if (gameScore >= 10)
 				{
-					Points.totalPoints += 3;
+					Points.totalPoints += 10;
 				}
 				check++;
 			}
