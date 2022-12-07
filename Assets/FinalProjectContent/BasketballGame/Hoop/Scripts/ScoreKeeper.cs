@@ -8,12 +8,15 @@ public class ScoreKeeper : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		DontDestroyOnLoad (gameObject);
-		score = 0;
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		
+		float time = FindObjectOfType<LevelManager>().timeTillNextLevel;
+		if (time >= 40f)
+		{
+			score = 0;
+		}
 	}
 
 	public void IncrementScore(int amount) {
