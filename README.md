@@ -12,6 +12,3 @@ One issue that we faced while developing is how to provide a way for players to 
 # Video
 
 Due to the size limitation in GitHub the video will be added to the eLC submission for final project.
-(As a workaround, placing the video within a zip folder seems to work)
-
-[MiniProject2Video.zip](https://github.com/ugavr22/project-2-eh41341/files/9964692/MiniProject2Video.zip)
