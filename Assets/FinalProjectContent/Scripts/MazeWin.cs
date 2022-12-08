@@ -25,8 +25,11 @@ public class MazeWin : MonoBehaviour
     {
         if(other.gameObject.tag == "Player")
         {
+            Debug.Log("in if");
             addPoints(firstPlace);
             SceneManager.LoadScene("Win");
+        } else {
+            Debug.Log("in else");
         }
         
     }
