@@ -6,23 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/FinalProjectContent/MainHub.unity
-    guid: d085787e0d6668c4596e87006fdb0501
+    path: Assets/FinalProjectContent/Maze Game/maze.unity
+    guid: 4285c6db6c4f2413f9cd84068e9a2393
   - enabled: 1
-    path: Assets/FinalProjectContent/throwingGame.unity
-    guid: 08744adfe36d56f40ad5176418ef9a88
-  - enabled: 1
-    path: Assets/FinalProjectContent/BasketballGame/BasketballGame.unity
-    guid: 5c099f02269b156498384bd90fabb28d
-  - enabled: 1
-    path: Assets/FinalProjectContent/backUpGame.unity
-    guid: 695384b6098b4b348885400290683a40
-  - enabled: 1
-    path: Assets/FinalProjectContent/worldsLargests.unity
-    guid: b6e9e756f79087f46bf2a662c6b30820
-  - enabled: 1
-    path: Assets/FinalProjectContent/quietTent.unity
-    guid: 4ee31e28e838d2c4c83ace9e1951f9f8
+    path: Assets/FinalProjectContent/Maze Game/Win.unity
+    guid: 845714a755df8486e91717febac9e05d
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: c0364dced5b11d64395d01c335fd6b3c, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 74f1757f9c19d4d438ab70b314dbba58, type: 2}
