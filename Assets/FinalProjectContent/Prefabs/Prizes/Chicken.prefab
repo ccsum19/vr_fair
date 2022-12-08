@@ -13,9 +13,11 @@ GameObject:
   - component: {fileID: 8454016961051230143}
   - component: {fileID: 8431589257607778942}
   - component: {fileID: 8431589257607778943}
+  - component: {fileID: 8425230022546357809}
+  - component: {fileID: 5748507796346101294}
   m_Layer: 0
   m_Name: Chicken
-  m_TagString: Untagged
+  m_TagString: Prize
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -115,3 +117,42 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 310f9adb29639fa4f926ddbb52461942, type: 3}
+--- !u!114 &8425230022546357809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8430888314151899761}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5515094c5c544b6b8ed7fd51a86548d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ownershipLocked: 0
+  networkId: 
+  sceneNetworkId: 0
+  prefabName: 
+  isSceneObject: 0
+  syncedComponents: []
+--- !u!114 &5748507796346101294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8430888314151899761}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f1f9b0bbd93a484a987c51f1107ebe5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  networkObject: {fileID: 0}
+  serializationRateHz: 30
+  hybridOnChangeCompression: 1
+  position: 1
+  rotation: 1
+  scale: 0
+  useLocalTransform: 1
+  teleportDistance: 0
+  teleportAngle: 0

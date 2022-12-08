@@ -13,9 +13,11 @@ GameObject:
   - component: {fileID: 3266706824895899436}
   - component: {fileID: 6461243016586889545}
   - component: {fileID: 5059886017164942607}
+  - component: {fileID: 5433063311537345992}
+  - component: {fileID: -5504376378261073404}
   m_Layer: 0
   m_Name: Burger
-  m_TagString: Untagged
+  m_TagString: Prize
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -115,3 +117,42 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 430156879fec00b4c8be6e44eab84172, type: 3}
+--- !u!114 &5433063311537345992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3244728558927878598}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5515094c5c544b6b8ed7fd51a86548d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ownershipLocked: 0
+  networkId: 
+  sceneNetworkId: 0
+  prefabName: 
+  isSceneObject: 0
+  syncedComponents: []
+--- !u!114 &-5504376378261073404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3244728558927878598}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f1f9b0bbd93a484a987c51f1107ebe5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  networkObject: {fileID: 0}
+  serializationRateHz: 30
+  hybridOnChangeCompression: 1
+  position: 1
+  rotation: 1
+  scale: 0
+  useLocalTransform: 1
+  teleportDistance: 0
+  teleportAngle: 0

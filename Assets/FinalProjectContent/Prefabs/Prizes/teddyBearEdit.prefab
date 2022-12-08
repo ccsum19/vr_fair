@@ -261,11 +261,13 @@ GameObject:
   - component: {fileID: 7713147619802413584}
   - component: {fileID: 7713147619802413586}
   - component: {fileID: 7713147619802413587}
-  - component: {fileID: 7713147619802413582}
   - component: {fileID: 7713147619802413585}
+  - component: {fileID: 9022816161353142407}
+  - component: {fileID: 6319793971071132067}
+  - component: {fileID: -1564146336184454694}
   m_Layer: 0
   m_Name: teddyBearEdit
-  m_TagString: Untagged
+  m_TagString: Prize
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -361,7 +363,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &7713147619802413582
+--- !u!114 &7713147619802413585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7479339015380256604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09447fdb6d1cf064498483580ab88330, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &9022816161353142407
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -379,7 +393,7 @@ MonoBehaviour:
   prefabName: 
   isSceneObject: 0
   syncedComponents: []
---- !u!114 &7713147619802413585
+--- !u!114 &6319793971071132067
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -388,9 +402,36 @@ MonoBehaviour:
   m_GameObject: {fileID: 7479339015380256604}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 09447fdb6d1cf064498483580ab88330, type: 3}
+  m_Script: {fileID: 11500000, guid: 5515094c5c544b6b8ed7fd51a86548d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ownershipLocked: 0
+  networkId: 
+  sceneNetworkId: 0
+  prefabName: 
+  isSceneObject: 0
+  syncedComponents: []
+--- !u!114 &-1564146336184454694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7479339015380256604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f1f9b0bbd93a484a987c51f1107ebe5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  networkObject: {fileID: 0}
+  serializationRateHz: 30
+  hybridOnChangeCompression: 1
+  position: 1
+  rotation: 1
+  scale: 0
+  useLocalTransform: 1
+  teleportDistance: 0
+  teleportAngle: 0
 --- !u!1 &7713147618249852159
 GameObject:
   m_ObjectHideFlags: 0

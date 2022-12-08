@@ -9,6 +9,7 @@ TagManager:
   - ring
   - net
   - rock
+  - Prize
   layers:
   - Default
   - TransparentFX

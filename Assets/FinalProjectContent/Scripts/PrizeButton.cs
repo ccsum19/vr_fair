@@ -47,7 +47,7 @@ public class PrizeButton : MonoBehaviour
     
     private void spawnPrize() {
         int randomPrize = Random.Range(0, 12);
-        Instantiate(prizes[randomPrize], spawnPos, Quaternion.identity);
+        DontDestroyOnLoad(Instantiate(prizes[randomPrize], spawnPos, Quaternion.identity));
     }
 
     private void OnTriggerEnter(Collider other)

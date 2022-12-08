@@ -7882,7 +7882,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 962322342}
   m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
-  m_LocalPosition: {x: -2.86, y: 2.72, z: 10.09}
+  m_LocalPosition: {x: -2.86, y: 2.8, z: 10.09}
   m_LocalScale: {x: 1.7158014, y: 1.3814845, z: 1.0972}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -9656,11 +9656,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1661292179802185874, guid: 1e9db4370933f8740b20479cdf24b276, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.5000005
+      value: 0.84
       objectReference: {fileID: 0}
     - target: {fileID: 1661292179802185874, guid: 1e9db4370933f8740b20479cdf24b276, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.2347727
+      value: 4.81
       objectReference: {fileID: 0}
     - target: {fileID: 1661292179802185874, guid: 1e9db4370933f8740b20479cdf24b276, type: 3}
       propertyPath: m_LocalRotation.w
@@ -9696,7 +9696,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1661292179802185876, guid: 1e9db4370933f8740b20479cdf24b276, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1661292179802185879, guid: 1e9db4370933f8740b20479cdf24b276, type: 3}
       propertyPath: firstPlace
@@ -17437,6 +17437,7 @@ GameObject:
   - component: {fileID: 2136794600}
   - component: {fileID: 2136794599}
   - component: {fileID: 2136794598}
+  - component: {fileID: 2136794602}
   m_Layer: 0
   m_Name: PlaceholderPrizePodium
   m_TagString: Untagged
@@ -17452,11 +17453,11 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2136794597}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 100, y: 1000.8, z: 100}
+  m_Center: {x: 0, y: -500, z: 0}
 --- !u!23 &2136794599
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -17522,6 +17523,19 @@ Transform:
   m_Father: {fileID: 1597682955}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2136794602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2136794597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45152034c90421047af1459bea2b4bbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnLoc: {fileID: 195386335}
 --- !u!1 &2139071660
 GameObject:
   m_ObjectHideFlags: 0
