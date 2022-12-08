@@ -1,17 +1,17 @@
-# Eugene Hong
+# Eugene Hong, Zoey Chu, David Chen, and Vishruth Singireddy
 
 ![headshot](https://user-images.githubusercontent.com/82916205/187787045-2b0b087f-cc88-4fe2-9c1e-386a49d914fc.PNG)
 
 
 # Description
-This is the content of mini project 2. The main task for this project is to get to class and on the way interact with some of the people at school. Within the school, there are teachers and students that you can interact with and greet. One student has different dialogue depending on if you have already talked to him. Within this project, certain people will also turn to face you while others will just project their thoughts out loud or just talk. To complete the task, the player will head to class, greet the teacher, and press the button behind the table. 
+This is the content of Group 2's final project. Our project is about a fair consisting of games and attractions similar to ones that you can find at carnivals, fairs, and amusement parks. The goal of this project is to fill up a box with randomly generated prizes. To get a prize dropped in the box, the player will need to get enough points through games. The main hub of our project is where people can socialize and interact with other players. 
 
 # Issues
-One issue I had with this project was trying to make sure that the people within the school looked and acted realistically. Getting students to face you and talk to you realistically took a good bit of time for this project. Since the avatars look very detailed, making sure their animations and actions looked very accurate took a lot of tweaking and small changes.
+One issue that we faced while developing is how to provide a way for players to accumulate points. After a lot of research and testing, we ended up using a static variable to carry player points. A static variable allows scripts to all share one instance of a variable, allowing point accumulationg through multiple scripts to be done easily. Another issue we had was dealing with synchronization of objects within our project, but after a lot of trial and error we were able to understand how the network works and how to implement it.
 
 # Video
 
-Due to the size limitation in GitHub the video will be added to the eLC submission for assignment 2.
+Due to the size limitation in GitHub the video will be added to the eLC submission for final project.
 (As a workaround, placing the video within a zip folder seems to work)
 
 [MiniProject2Video.zip](https://github.com/ugavr22/project-2-eh41341/files/9964692/MiniProject2Video.zip)
