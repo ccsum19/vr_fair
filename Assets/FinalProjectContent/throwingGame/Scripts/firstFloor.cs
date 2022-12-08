@@ -5,9 +5,8 @@ using TMPro;
 
 public class firstFloor : MonoBehaviour
 {
-
-    public TMP_Text pntDisplay;
-    private AudioSource audioS;
+    public TMP_Text pointDisplay;
+    private AudioSource audS;
 
     // Start is called before the first frame update
     void Start()
@@ -24,18 +23,20 @@ public class firstFloor : MonoBehaviour
     public void addPoints(int n)
     {
         Points.totalPoints += n;
+        showPoint.showPoints += n;
     }
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "rock")
         {
+            //Debug.Log(Points.totalPoints);
             int newPoint = 3;
             addPoints(newPoint);
-            pntDisplay.text = newPoint.ToString();
+            pointDisplay.text = showPoint.showPoints.ToString();
             GetComponent<Collider>().enabled = false;
-            audioS = GetComponent<AudioSource>();
-            audioS.Play();
+            audS = GetComponent<AudioSource>();
+            audS.Play();
             //Debug.Log(Points.totalPoints);
         }
     }

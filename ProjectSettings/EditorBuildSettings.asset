@@ -14,13 +14,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/FinalProjectContent/BasketballGame/BasketballGame.unity
     guid: 5c099f02269b156498384bd90fabb28d
-  - enabled: 1
+  - enabled: 0
     path: Assets/FinalProjectContent/backUpGame.unity
     guid: 695384b6098b4b348885400290683a40
-  - enabled: 1
+  - enabled: 0
     path: Assets/FinalProjectContent/worldsLargests.unity
     guid: b6e9e756f79087f46bf2a662c6b30820
-  - enabled: 1
+  - enabled: 0
     path: Assets/FinalProjectContent/quietTent.unity
     guid: 4ee31e28e838d2c4c83ace9e1951f9f8
   m_configObjects:
