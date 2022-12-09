@@ -1,8 +1,9 @@
-# Eugene Hong, Zoey Chu, David Chen, and Vishruth Singireddy
+# Eugene Hong, Zoey Cho, David Chen, and Vishruth Singireddy
 
 ![headshot](https://user-images.githubusercontent.com/82916205/187787045-2b0b087f-cc88-4fe2-9c1e-386a49d914fc.PNG)
 <img src="https://user-images.githubusercontent.com/64379351/188764447-e52a8d42-1027-43a4-90f3-a041dc9e5453.JPG " width="330">
 <img src="https://user-images.githubusercontent.com/100171715/206575380-7a741959-f98d-409d-b60f-b05c63180059.JPG" width="330" height="330">
+<img src="https://user-images.githubusercontent.com/41042030/206732106-ae10902c-ba3d-4527-9212-eb10882bb6a1.png" width="330" height="330">
 
 
 # Description
